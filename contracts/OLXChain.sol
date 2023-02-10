@@ -4,6 +4,7 @@ pragma solidity ^0.8.9;
 contract OLXChain {
     address public owner;
 
+    //Item struct
     struct Item{
         uint256 id;
         string name;
