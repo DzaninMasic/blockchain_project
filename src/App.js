@@ -29,7 +29,7 @@ function App() {
     setProvider(provider)
     const network = await provider.getNetwork()
     //Connect contract
-    const olxchain = new ethers.Contract(config[network.chainId].dappazon.address, OLXChain, provider)
+    const olxchain = new ethers.Contract(config[network.chainId].olxchain.address, OLXChain, provider)
     setOlxchain(olxchain)
     //Load products
     const items = []
