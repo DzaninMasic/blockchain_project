@@ -7,7 +7,7 @@ import OLXChain from './abis/OLXChain.json'
 import config from './config.json'
 
 function App() {
-  const [account, setAccount] = useState(null) //
+  const [account, setAccount] = useState(null) 
   const [provider, setProvider] = useState(null)
   const [olxchain, setOlxchain] = useState(null)
 
